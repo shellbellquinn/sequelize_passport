@@ -1,3 +1,5 @@
+// The modelsdefines the different columns for a table called. Also note, that in the last line we are exporting Project. This means we will have access to this code through the variable User.
+
 // Requiring bcrypt for password hashing. Using the bcryptjs version as the regular bcrypt module sometimes causes errors on Windows machines
 var bcrypt = require("bcryptjs");
 // Creating our User model
